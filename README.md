@@ -1,5 +1,7 @@
-# Dexter Module
-> This folder contains the scaffolding for implementing a Dexter module. 
+# Venmo Pay Dexter Module
+> This Dexter module takes a Venmo username, dollar amount, and payment note, and performs the API request to make the Venmo payment.
+This module currently requires a Venmo access token to be provided in an environment variable, however, when Dexter releases user-specific
+key value stores and OAuth support, this should pull the access token directly from the Dexter user. This is a good proof-of-concept for now.
 
 ## File Details
 ### index.js
