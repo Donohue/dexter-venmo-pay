@@ -4,25 +4,24 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From",
-            "type":"string"
+            "id": "username",
+            "title": "Venmo Username",
+            "type": "string"
+        },
+        {
+            "id": "amount",
+            "title": "Amount to Pay",
+            "type": "integer"
+        },
+        {
+            "id": "note",
+            "title": "Venmo Payment Note",
+            "type": "string"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
-        {
-            "id": "from",
-            "title":"From",
-            "type":"array"
-        }
-      */
     ],
     "title": "Donohue Venmo Pay" /* Required.A display name for the module */
 }

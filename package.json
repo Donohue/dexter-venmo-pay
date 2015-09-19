@@ -1,12 +1,13 @@
 {
-    "name": "donohue-venmo-pay",
-    "version": "0.0.1",
-    "description": "",
-    "main": "index.js",
-    "author": "Someone Somewhere",
-    "license": "ISC",
-    "private": true,
-    "dependencies": {
-        "lodash": "^3.9.3"
-    }
+  "name": "donohue-venmo-pay",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "Someone Somewhere",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "lodash": "^3.9.3",
+    "restler": "^3.3.0"
+  }
 }
